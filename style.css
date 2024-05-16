@@ -11,7 +11,7 @@
 :root{
     --first-color: #4070f4;
     --second-color:#0E2431;
-    --gradient-color: linear-gradient(to right, #5001fb,#8e0af3);
+    --gardient-color: linear-gradient(to-right, #5001fb,#8e0af3);
 
 }
 :root{
@@ -61,7 +61,8 @@ p{
     margin: 0;
 
 }
-ul{
+
+u1{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -216,6 +217,7 @@ img{
     border-radius: .5rem;
    /* background-color: var(--gardient-color); */
     background: var(--gradient-color);
+    background-color: aqua;
 }
 .button:hover{
     box-shadow: 0 10px 36px rgba(0,0,0,0.15);
