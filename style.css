@@ -11,7 +11,7 @@
 :root{
     --first-color: #4070f4;
     --second-color:#0E2431;
-    --gardient-color: linear-gradient(to-right, #5001fb,#8e0af3);
+    --gardient-color: linear-gradient(to right, #5001fb,#8e0af3);
 
 }
 :root{
@@ -216,7 +216,7 @@ img{
     font-weight: var(--font-semi);
     border-radius: .5rem;
    /* background-color: var(--gardient-color); */
-    background: var(--gradient-color);
+    /* background: var(--gradient-color); */
     background-color: aqua;
 }
 .button:hover{
